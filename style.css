@@ -1,0 +1,8 @@
+.background-image{
+    background-image: url(c837a6_02de7d4c43d44b7b890854049ed75da8f000.jpeg);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}

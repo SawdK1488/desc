@@ -1,3 +1,22 @@
+button{
+    cursor: pointer;
+}
+
+.button-sub{
+    border: 1 solid black;
+    color: white;
+    background-color: black;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    width: 160px;
+    height: 30px;
+}
+
+.button-sub:hover{
+    color: black;
+    background-color: white;
+}
+
 .background-image{
     background-image: url(c837a6_02de7d4c43d44b7b890854049ed75da8f000.jpeg);
 }
@@ -15,10 +34,15 @@
 .navbar-left-size{
     display: flex;
     gap: 30px;
-    
+    cursor: pointer;
+    align-items: center;
 }
 
 .main-text__center{
     display: flex;
     justify-content: center;
+}
+
+.text-hover:hover{
+    color: rgb(228, 110, 0);
 }

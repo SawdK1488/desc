@@ -4,5 +4,21 @@
 
 .navbar{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.navbar-logo{
+    font-size: 25px;
+}
+
+.navbar-left-size{
+    display: flex;
+    gap: 30px;
+    
+}
+
+.main-text__center{
+    display: flex;
+    justify-content: center;
 }
